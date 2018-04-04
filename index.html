@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Geo plaaaat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/three.js"></script>
+    <script src="js/OrbitControls.js"></script>    
+    <script src="js/ObjectLoader.js"></script>
+    
+    
+     <div class="pos-f-t text-center">
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4 text-center">
+          <h4 class="text-white ">Ivas Liberis</h4>
+          <span class="text-muted">my personal digital space</span>
+          <!-- <a href="#" id="contact"> -->
+              <div id="contact"><i class="text-muted text-right fas fa-envelope-open"></i></div>
+          
+              <div id="contactForm">
+           
+                <h1 class="touch">Keep in touch!</h1>
+                <small>I'll get back to you as quickly as possible</small>
+                
+                <form action="send" method="POST">
+                  <input placeholder="Email" type="email" name="email" id="email"  required />
+                  <input placeholder="Subject" type="text" name="subject" id="subject" required />
+                  <textarea placeholder="Comment" type="text" name="comment" id="text"></textarea>
+                  <input class="formBtn" type="submit"/>
+                  <input class="formBtn" type="reset" />
+                </form>
+              </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-dark bg-dark row text-center">
+        <button class="navbar-toggler" id="rotatis" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <button type="button" class="btn" id="musiq" onclick="togglePlay();">
+          <i id="suedo" class="fas fa-assistive-listening-systems fa-lg"></i>
+          <audio src="attr/braind.wav" id="myAudio"></audio>
+        </button>
+      </nav>
+    </div>
+  
+
+    <div  id="WebGL-output"></div>
+    <script src="js/menu.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/nodemailer.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+        
+</body>
+</html>

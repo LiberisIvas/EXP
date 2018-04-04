@@ -1,0 +1,78 @@
+body {
+    /* set margin to 0 and overflow to hidden, to go fullscreen */
+    margin: 0;
+    overflow: hidden;
+}
+#info {
+    position: absolute;
+    top: 0px; width: 100%;
+    padding: 5px;
+    z-index:100;
+}
+
+b { color:orange }
+.bg-dark {
+    background-color: black !important;
+}
+#musiq {
+    background-color: black
+}
+#suedo {
+    color: rgb(155, 148, 148)
+}
+.rotate {
+ transform: rotate(90deg);
+}
+
+@import "https://fonts.googleapis.com/css?family=Raleway";
+* { box-sizing: border-box; }
+
+#contact { 
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  cursor: pointer;
+}
+
+#contact:hover { background: #666; }
+#contact:active { background: #444; }
+
+#contactForm { 
+  display: none;
+  padding: 2em;
+  width: 400px;
+  text-align: center;
+  background: rgba(29, 190, 177, 0.3);
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%)
+}
+
+input, textarea { 
+  margin: .8em auto;
+  font-family: inherit; 
+  text-transform: inherit; 
+  font-size: inherit;
+  background-color: rgba(206, 219, 206, 0.3))
+  display: block; 
+  width: 280px; 
+  padding: .4em;
+}
+textarea { height: 80px; resize: none; }
+
+.formBtn { 
+  width: 140px;
+  display: inline-block;
+  
+  background:white;
+  color:black;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+}
+.touch {
+    color: springgreen;
+}
