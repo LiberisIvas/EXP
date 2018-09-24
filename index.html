@@ -4,6 +4,7 @@
     <title>Geo plaaaat</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="style.css">
+  <iframe src="attr/braind.opus" allow="autoplay"></iframe>
   
 </head>
 <body> 
@@ -30,7 +31,7 @@
                 <h1 class="touch">Keep in touch!</h1>
                 <small>I'll get back to you as quickly as possible</small>
                 
-                <form method="Post" action="#">
+                <form>
                   <input placeholder="Email" type="email" name="email" id="email"  required />
                   <input placeholder="Subject" type="text" name="subject" id="subject" required />
                   <textarea placeholder="Comment" type="text" name="comment" id="text"></textarea>
@@ -47,7 +48,7 @@
         </button>
         <button type="button" class="btn" id="musiq" onclick="togglePlay();">
           <i id="suedo" class="fas fa-assistive-listening-systems fa-lg"></i>
-          <audio src="attr/braind.opus" id="myAudio"></audio>
+          <audio src="attr/braind.opus" allow="autoplay" id="myAudio"></audio>
         </button>
       </nav>
     </div>

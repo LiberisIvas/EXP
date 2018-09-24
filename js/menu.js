@@ -1,5 +1,5 @@
 
-  
+    
       $('#musiq').click(function(){
        $('#suedo').toggleClass('fa-assistive-listening-systems fa-deaf');
        });
